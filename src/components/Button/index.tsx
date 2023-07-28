@@ -12,7 +12,7 @@ export const Button = ({ children, variant }: PropType) => {
       return (
         <Link
           href={"/"}
-          className="max-w-[120px] max-h-[30px] flex justify-center gap-2 py-1 px-5 text-sm font-nunito font-bold"
+          className="min-w-[120px] max-h-[30px] flex justify-center gap-2 py-1 px-5 text-sm font-nunito font-bold"
           style={{
             borderStyle: "solid",
             borderWidth: "2px",
@@ -28,7 +28,7 @@ export const Button = ({ children, variant }: PropType) => {
       return (
         <Link
           href={"/"}
-          className="max-w-[120px] max-h-[30px] flex justify-center gap-2 py-1 px-4 text-sm font-nunito font-bold text-dark"
+          className="min-w-[120px] max-h-[30px] flex justify-center gap-2 py-1 px-4 text-sm font-nunito font-bold text-dark"
           style={{
             borderStyle: "solid",
             borderWidth: "2px",
@@ -44,7 +44,7 @@ export const Button = ({ children, variant }: PropType) => {
       return (
         <Link
           href={"/"}
-          className="max-w-[120px] max-h-[30px] flex justify-center gap-2 py-1 px-5 text-sm font-nunito font-bold text-light"
+          className="min-w-[120px] max-h-[30px] flex justify-center gap-2 py-1 px-5 text-sm font-nunito font-bold text-dark"
           style={{
             borderStyle: "solid",
             borderWidth: "2px",
