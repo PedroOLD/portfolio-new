@@ -1,4 +1,5 @@
 import { Button } from "@/components/Button";
+import { Description } from "@/components/Description";
 import Image from "next/image";
 
 export default function Home() {
@@ -78,8 +79,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-secondary p-8 shadow-sm">
+      <section className="bg-secondary p-8 shadow-sm flex flex-col gap-7">
         <h1 className="text-dark font-secular text-2xl">Experiências</h1>
+        <Description />
       </section>
     </>
   );

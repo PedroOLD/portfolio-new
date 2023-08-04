@@ -19,6 +19,7 @@ module.exports = {
 
       secondary: {
         DEFAULT: "#D5F08F",
+        ligth: "#FFFADE80",
       },
 
       terciary: {
